@@ -14,8 +14,6 @@ function getOptions() {
 
 /**
  * Updates the status of tournaments in 'Tournaments - Season 2' sheet.
- * @param gameResp - The WL response for a game from the GameFeed API. 
- * @return A list of [winnerPlayerId, loserPlayerId]. If it is a team game, concatenate all playerIds on each team using _.
  */
 function main(){  
   // 1v1s
